@@ -6,19 +6,15 @@
     $id = $_SESSION["id"];
     $nome = $_POST["nome"];
     $email = $_POST["email"];
-    $senha = $_POST['senha'];
-    $novasenha = $_POST['novasenha'];
+    $senha = md5($_POST['senha']);
+    $novasenha = md5($_POST['novasenha']);
 
     $sql = "SELECT pap_passe FROM pap_registar WHERE pap_id='$id'";
     $result = $conn->query($sql);
     if ($result->num_rows == 1) {
         $row = $result->fetch_assoc();
-        print_r($row);
-        $senhaAtual = $row['pap_passe'];
-        $checkpassword = password_verify($senha, $senhaAtual);
-        if ($checkpassword === TRUE) {
-            $novasenha = password_hash($novasenha);
-            $updateSql = "UPDATE Pap_Login SET pap_nome='$nome', pap_email='$email', pap_passe='$novasenha' WHERE pap_id='$id'";
+        if ($row['pap_passe'] == $senha) {
+            $updateSql = "UPDATE pap_registar SET pap_nome='$nome', pap_email='$email', pap_passe='$novasenha' WHERE pap_id='$id'";
             if ($conn->query($updateSql) === TRUE) {
                 echo "Senha atualizada com sucesso.";
             } else {
