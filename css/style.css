@@ -1862,6 +1862,12 @@ ol {
 	margin-bottom: 30px;
 }
 
+.sidebar-option .so-latest .latest-large .sec-player {
+	height: 123123px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
 .sidebar-option .so-latest .latest-large .ll-text {
 	position: absolute;
 	left: 0;

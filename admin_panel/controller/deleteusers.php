@@ -7,7 +7,7 @@
         $query="DELETE FROM pap_registar where pap_id='$id'";
     
         $data=mysqli_query($conn,$query);
-        header("Location: http://localhost:8080/Bombeiros/admin_panel/index.php#customers");
+        header("Location: http://localhost/Bombeiros/admin_panel/index.php#customers");
     }
 
 

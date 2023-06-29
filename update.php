@@ -16,7 +16,8 @@
         if ($row['pap_passe'] == $senha) {
             $updateSql = "UPDATE pap_registar SET pap_nome='$nome', pap_email='$email', pap_passe='$novasenha' WHERE pap_id='$id'";
             if ($conn->query($updateSql) === TRUE) {
-                echo "Senha atualizada com sucesso.";
+                header("Location:http://localhost/Bombeiros/perfil.php");
+                exit;
             } else {
                 echo "Erro ao atualizar a senha: " . $conn->error;
             }

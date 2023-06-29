@@ -40,7 +40,7 @@
         var infoWindow = new google.maps.InfoWindow;
 
           // Change this depending on the name of your PHP or XML file
-          downloadUrl('http://localhost:8080/Bombeiros/maps/xml.php', function(data) {
+          downloadUrl('http://localhost/Bombeiros/maps/xml.php', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {
@@ -67,7 +67,7 @@
                 position: point,
                 label: icon.label,
                 icon: {
-                  url: "http://localhost:8080/Bombeiros/maps/icon.png",
+                  url: "http://localhost/Bombeiros/maps/icon.png",
                   scaledSize: new google.maps.Size(32, 32)
                 }
               });

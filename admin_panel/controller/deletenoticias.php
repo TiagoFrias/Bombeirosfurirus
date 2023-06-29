@@ -7,7 +7,7 @@
         $query="DELETE FROM noticias where n_id='$id'";
     
         $data=mysqli_query($conn,$query);
-        header("Location: http://localhost:8080/Bombeiros/admin_panel/index.php?size=success#sizes");
+        header("Location: http://localhost/Bombeiros/admin_panel/index.php?size=success#sizes");
     }
 
 

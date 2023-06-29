@@ -142,7 +142,7 @@
                                 $result = $conn->query($stmt);
                                 while($row = $result->fetch_assoc()) {
                                     echo'
-                                    <div class="latest-large set-bg" data-setbg="img/'.$row["n_imagem"].'" height="250px" width="250px">
+                                    <div class="latest-large set-bg" data-setbg="img/letest-blog/'.$row['n_imagem'].'" height="250px" width="250px">
                                         <div class="ll-text">
                                             <h5><a href="#">'.$row["n_titulo"].'</a></h5>
                                             <ul>
@@ -153,13 +153,8 @@
                                 }
                             }
                             ?>
-                            <div class="latest-large set-bg" data-setbg="">
-                                <div class="sec-player">
-                                <div class="player">
-                                    <img src="img/audio.jpg" alt="aw">
-                                </div>
-                                <audio src="img/hino5.mp3" type="audio/mp3" controls></audio>
-                            </div> 
+                            <div class="latest-large set-bg" data-setbg="img/audio.jpg">
+                                    <br><br><br><br><br><br><audio src="img/hino5.mp3" type="audio/mp3" controls></audio>
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 <link href="../css/particles.css" rel="stylesheet">
-<script src="http://localhost:8080/Bombeiros/js/particles.js"></script>
+<script src="http://localhost/Bombeiros/js/particles.js"></script>
 
 <!DOCTYPE html>
 <html lang="en">

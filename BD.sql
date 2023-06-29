@@ -12,7 +12,7 @@ create table noticias(
 n_id int auto_increment primary key,
 n_titulo varchar(255),
 n_descricao varchar(255),
-n_data int,
+n_data date,
 n_imagem varchar(255)
 );
 
@@ -20,7 +20,7 @@ create table recrutamento(
 r_id int auto_increment primary key,
 r_nome varchar (255),
 r_genero varchar (255),
-r_data int,
+r_data date,
 r_morada varchar (255),
 r_postal int,
 r_telefone int,

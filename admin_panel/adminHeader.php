@@ -16,13 +16,13 @@
         <?php           
         if(isset($_SESSION['pap_id'])){
           ?>
-          <a href="http://localhost:8080/Bombeiros/Login/logout.php" style="text-decoration:none;">
+          <a href="http://localhost/Bombeiros/Login/logout.php" style="text-decoration:none;">
             <i class="fa fa-user mr-5" style="font-size:30px; color:#fff;" aria-hidden="true"></i>
          </a>
           <?php
         } else {
             ?>
-            <a href="http://localhost:8080/Bombeiros/Login/logout.php" style="text-decoration:none;">
+            <a href="http://localhost/Bombeiros/Login/logout.php" style="text-decoration:none;">
                     <i class="fa fa-sign-in mr-5" style="font-size:30px; color:#fff;" aria-hidden="true"></i>
             </a>
 
