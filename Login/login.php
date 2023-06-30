@@ -19,8 +19,14 @@
                 $_SESSION['id'] = $data['pap_id'];
                 $_SESSION['nome'] = $data['pap_nome'];
                 $_SESSION['email'] = $data['pap_email'];
+                $_SESSION['tipo'] = $data['pap_tipo'];
                 $_SESSION['senha'] = $data['pap_senha'];
 
+                if($data['pap_tipo'] == 1){
+                    header("Location:../index.php");
+                }else{
+                    header("Location:../admin_panel/index.php");
+                }
                 header("Location:../index.php");
                 exit;
             }else{

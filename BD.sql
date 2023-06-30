@@ -3,6 +3,7 @@ use Pap_Login;
 
 create table pap_registar(
 pap_id int auto_increment primary key,
+pap_tipo varchar(255),
 pap_nome varchar(255),
 pap_email varchar(255),
 pap_passe varchar(255)
@@ -31,3 +32,4 @@ r_carta varchar (255)
 create table medalhas(
 m_imagem varchar (255)
 );
+
