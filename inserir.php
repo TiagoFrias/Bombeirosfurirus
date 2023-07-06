@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO recrutamento (r_nome, r_data, r_carta, r_genero, r_telefone, r_email, r_morada, r_postal) VALUES ('$nome', '$dataNascimento', '$cartaConducao', '$genero', '$contactoTelefonico', '$email', '$rua', '$codigoPostal')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: http://localhost:8080/Bombeiros/recrutamento.php");
+        header("Location: http://localhost/Bombeiros/recrutamento.php");
     } else {
         echo "Erro ao inserir os dados: " . $conn->error;
     }

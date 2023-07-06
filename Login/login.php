@@ -20,15 +20,14 @@
                 $_SESSION['nome'] = $data['pap_nome'];
                 $_SESSION['email'] = $data['pap_email'];
                 $_SESSION['tipo'] = $data['pap_tipo'];
-                $_SESSION['senha'] = $data['pap_senha'];
-
+                $_SESSION['senha'] = $data['pap_passe'];
                 if($data['pap_tipo'] == 1){
                     header("Location:../index.php");
+                    exit;
                 }else{
                     header("Location:../admin_panel/index.php");
+                    exit;
                 }
-                header("Location:../index.php");
-                exit;
             }else{
                 echo "<h2> Email ou Password inválido!</h2>";
             }
