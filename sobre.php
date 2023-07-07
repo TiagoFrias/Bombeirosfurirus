@@ -187,7 +187,7 @@
             <div class="row">
                 <div class="ts-slider owl-carousel">
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/team/team-1.jpg">
+                        <div class="ts-item set-bg" data-setbg="img/team/mangueira.jpg">
                             <div class="ts_text">
                                 <h4>Mangueira</h4>
                                 <span>Incêndios</span>
@@ -195,7 +195,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/team/team-2.jpg">
+                        <div class="ts-item set-bg" data-setbg="img/team/fato.jpg">
                             <div class="ts_text">
                                 <h4>Fato</h4>
                                 <span>Proteção</span>
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/team/team-3.jpg">
+                        <div class="ts-item set-bg" data-setbg="img/team/extintor.jpg">
                             <div class="ts_text">
                                 <h4>Extintor</h4>
                                 <span>Incêndios</span>
@@ -211,7 +211,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/team/team-4.jpg">
+                        <div class="ts-item set-bg" data-setbg="img/team/machado.jpg">
                             <div class="ts_text">
                                 <h4>Machado</h4>
                                 <span>Resgate/Incêndios</span>
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/team/team-5.jpg">
+                        <div class="ts-item set-bg" data-setbg="img/team/maca.jpg">
                             <div class="ts_text">
                                 <h4>Maca</h4>
                                 <span>Resgate</span>
@@ -227,7 +227,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/team/team-6.jpg">
+                        <div class="ts-item set-bg" data-setbg="img/team/detector.jpg">
                             <div class="ts_text">
                                 <h4>Detetor de Gases</h4>
                                 <span>Deteção</span>
